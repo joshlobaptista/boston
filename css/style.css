@@ -1,0 +1,405 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+}
+
+header {
+  border: 1px solid black;
+  display: inline-block;
+  height: auto;
+  background-color: black;
+  width: 100%;
+}
+
+footer {
+  display: inline-block;
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin-top: 0%;
+  margin-left: 15.7%;
+  font-size: 34px;
+  float: left;
+  margin-bottom: 5px;
+}
+
+i {
+  color: red;
+  font-size: 30px;
+  margin-top: 30px;
+  padding-left: 5px;
+}
+
+header > nav > ul {
+  display: inline;
+  float: left;
+
+}
+
+header > nav > ul > li > a {
+  color: white;
+}
+
+header > nav > h1 > a > span {
+  color: red;
+}
+
+header > nav > h1 > a {
+  color: white;
+  float: left;
+  display: inline;
+}
+
+header > nav > ul > li {
+  display: inline;
+  list-style: none;
+  float: left;
+  padding-left: 60px;
+  margin-top: 0px;
+}
+
+.ad {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container {
+  display: block;
+  margin-left: 15.6%;
+  margin-right: 15.6%;
+}
+
+.cars {
+  height: auto;
+  width: 100%;
+  float: left;
+  padding-top: 10px;
+  display: inline-block;
+}
+
+.carsList {
+  float: left;
+}
+
+.popular {
+  width: 30%;
+  height: auto;
+  padding-top: 60px;
+  display: inline-block;
+  float: left;
+  padding-left: 30px;
+}
+
+.topStories {
+  width: 70%;
+  height: auto;
+  padding-top: 60px;
+  display: inline-block;
+  float: left;
+}
+
+.pats {
+  width: 100%;
+  display: block;
+  float: left;
+  font-size: 18px;
+}
+
+.topics {
+  display: block;
+  float: left;
+  width: 29%;
+  text-align: left;
+  margin-left: .5%;
+}
+
+.truck {
+  width: 40%;
+  float: left;
+
+}
+
+.icons {
+  width: 50%;
+  float: left;
+  margin-left: 15.7%;
+}
+
+.boots {
+  display: block;
+  width: 50%;
+  float: left;
+}
+
+.chance {
+  display: block;
+  width: 50%;
+  float: left;
+  padding-left: 10px;
+}
+
+.picStories {
+  width: 70%;
+  height: auto;
+  float: left;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+.policy {
+  float: right;
+  text-align: center;
+}
+
+.ad > img {
+  width: 80%;
+  height: 200px;
+  background-color: darkred;
+}
+
+.boots > img {
+  width: 100%;
+  height: 170px;
+}
+
+.chance > img {
+  width: 100%;
+  height: 170px;
+}
+
+.pats > img {
+  width: 100%;
+  height: 250px;
+  float: left;
+}
+
+.pats > h3 {
+  clear: both;
+  text-align: left;
+}
+
+.popular > h2 {
+  border-bottom: 2px solid darkred;
+}
+
+.topics > ul {
+  list-style: none;
+  padding-left: 0;
+  border-bottom: .2px solid lightgrey;
+  padding-bottom: 8px;
+}
+
+.carsList > ul {
+  list-style: none;
+  padding-left: 8px;
+  padding-bottom: 8px;
+}
+
+.topStories > h2 {
+  border-bottom: 2px solid darkred;
+}
+
+.carsList > ul > li {
+  padding-bottom: 13px;
+  padding-top: 10px;
+  border-bottom: .2px solid lightgrey;
+}
+
+.topics > ul > h4 {
+  margin-bottom: 3px;
+  color: red;
+  margin-top: 5px;
+}
+
+.truck > img {
+  width: 100%;
+  height: 200px;
+}
+
+.truck > p {
+  font-size: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.popular > ol {
+  padding-left: 15px;
+}
+
+.picStories, h3 > a {
+  color: black;
+}
+
+.policy > p {
+  margin-bottom: 1px;
+
+}
+
+.policy > ul {
+  margin-top: 0;
+  margin-right: 15px;
+}
+
+.popular > ol > li {
+  border-bottom: .2px solid lightgrey;
+  padding-bottom: 12px;
+  padding-top: 10px;
+}
+
+.popular > ol > li > a {
+  color: black;
+}
+
+.policy > ul > li {
+  list-style: none;
+  display: inline;
+  border-right: .2px solid lightgrey;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.topics > ul > li > a {
+  color: black;
+}
+
+.carsList > ul > li > a {
+  color: black;
+}
+
+/* MOBILE */
+
+@media (min-width:769px) and (max-width: 1025px) {
+header {
+  width: 100%;
+  text-align: center;
+  }
+
+.ad {
+  display: none;
+}
+
+footer {
+  width: 100%;
+  clear: both;
+  }
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+
+}
+
+.carsList {
+  width: 100%;
+}
+
+.topStories {
+  width: 100%
+
+}
+
+.topics {
+  width: 100%;
+
+}
+
+.truck {
+  width: 100%;
+}
+
+.picStories {
+  width: 100%;
+}
+
+.popular {
+  width: 100%;
+}
+
+.boots {
+  width: 100%;
+
+}
+
+.chance {
+  width: 100%;
+
+}
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+header {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  display: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+header > nav > ul {
+  display: none;
+}
+
+.ad {
+  display: none;
+}
+
+.topStories {
+  width: 100%;
+
+}
+
+.picStories {
+  width: 100%;
+
+}
+
+.popular {
+  width: 100%;
+}
+
+.boots {
+  width: 100%;
+
+}
+
+.chance {
+  width: 100%;
+
+}
+
+.topics  {
+  margin-left: 25%;
+}
+
+.truck {
+  width: 100%;
+}
+
+.topics > ul > li > a {
+  display: none;
+
+}
+
+}
